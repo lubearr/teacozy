@@ -103,6 +103,7 @@ header a {
 
 .locations-gallery {
   display: flex;
+  justify-content: center;
 }
 
 .locations-block {
@@ -130,6 +131,71 @@ footer {
 @media only screen and (max-width: 1150px) {
   .mission, .locations {
     margin: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .mission {
+    height: 400px;
+  }
+
+  .featured {
+    width: 100%;
+  }
+
+  .locations {
+    height: auto;
+  }
+
+  .locations-gallery {
+    flex-wrap: wrap;
+  }
+
+  .locations-block {
+    margin: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  html {
+    font-size: 18px;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  nav {
+    display: none;
+  }
+
+  footer {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 16px;
+  }
+
+  .mission {
+    height: 300px;
+  }
+
+  .gallery-block {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .gallery img {
+    height: auto;
+  }
+
+  .locations-block {
+    margin: 10px 0;
     width: 100%;
   }
 }
