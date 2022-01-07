@@ -16,11 +16,7 @@ header, section, footer {
   opacity: 0.9;
 }
 
-h2 {
-  margin: 0.5em 0;
-}
-
-h4 {
+h2, h3, h4, h5, p {
   margin: 0.5em 0;
 }
 
@@ -86,4 +82,54 @@ header a {
 
 .gallery h4 {
   margin-top: 10px;
+}
+
+.locations {
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.locations-gallery {
+  display: flex;
+}
+
+.locations-block {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 20px;
+  padding: 0.5em;
+  width: 300px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+}
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1150px) {
+  .mission, .locations {
+    margin: 0;
+    width: 100%;
+  }
 }
