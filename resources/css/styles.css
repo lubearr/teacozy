@@ -12,6 +12,10 @@ html {
   text-align: center;
 }
 
+header, section, footer {
+  opacity: 0.9;
+}
+
 h2 {
   margin: 0.5em 0;
 }
@@ -46,6 +50,7 @@ header a {
 .mission {
   align-items: center;
   background-image: url("../images/img-mission-background.jpg");
+  background-position: center;
   background-size: cover;
   display: flex;
   height: 700px;
@@ -56,4 +61,29 @@ header a {
 .tagline {
   background-color: black;
   width: 100%;
+}
+
+.featured {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-block {
+  margin: 10px;
+  width: 300px;
+}
+
+.gallery img {
+  height: 200px;
+  width: 100%;
+}
+
+.gallery h4 {
+  margin-top: 10px;
 }
