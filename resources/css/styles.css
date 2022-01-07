@@ -181,6 +181,10 @@ footer {
     font-size: 16px;
   }
 
+  .mission, .featured {
+    margin-bottom: 40px;
+  }
+
   .mission {
     height: 300px;
   }
